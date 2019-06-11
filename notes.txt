@@ -1,0 +1,12 @@
+1.
+following 2nd video from this link (by Julio fearmanj) :- https://aws.amazon.com/cognito/
+
+below are few github links provided by him for video tutorials -->
+
+https://gist.github.com/faermanj/abc31d2fefca6701e87a9e3a9e885c18
+https://gist.github.com/faermanj/bf35079ad64cbbb5bfa85f1878ad023c
+
+below is the simple application code that we have build -->
+
+https://github.com/faermanj/breakless
+

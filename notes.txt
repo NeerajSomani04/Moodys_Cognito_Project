@@ -30,3 +30,9 @@ https://www.reddit.com/r/aws/comments/8lbib0/aws_cognito_to_s3_bucket_mapping/
 secured pre-signed URL
 https://docs.aws.amazon.com/AmazonS3/latest/dev/ShareObjectPreSignedURL.html
 
+Below are the issues in template -->
+
+EdgeAuthFunction --> creation failed
+
+The runtime parameter of nodejs6.10 is no longer supported for creating or updating AWS Lambda functions. We recommend you use the new runtime (nodejs8.10) while creating or updating functions. (Service: AWSLambdaInternal; Status Code: 400; Error Code: InvalidParameterValueException; Request ID: 3f4a26b6-8d43-11e9-b44b-6717fa57dc3e)
+

@@ -23,3 +23,10 @@ https://www.reddit.com/r/aws/comments/8c02ho/q_aws_cognito_for_s3_website_access
 https://d1.awsstatic.com/whitepapers/Building%20Static%20Websites%20on%20AWS.pdf
 
 
+
+https://github.com/aws-samples/authorization-lambda-at-edge
+https://www.reddit.com/r/aws/comments/8lbib0/aws_cognito_to_s3_bucket_mapping/
+
+secured pre-signed URL
+https://docs.aws.amazon.com/AmazonS3/latest/dev/ShareObjectPreSignedURL.html
+

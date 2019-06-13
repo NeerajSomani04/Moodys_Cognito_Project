@@ -47,3 +47,23 @@ Approach 2 --> Cognito, API-Gateway, Lambda, S3 for storage
 technology --> AWS, HTML, CSS, JavaScript
 
 https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/
+
+
+------------------
+
+AWS forum link --> https://forums.aws.amazon.com/post!post.jspa?forumID=173&reply=false
+
+subject --> AWS Cognito Project - Error - AWS no longer support JavaScript nodejs6.10
+
+messgae --> 
+Hello Everyone, 
+I am new to AWS and trying to implement [this](https://aws.amazon.com/blogs/networking-and-content-delivery/authorizationedge-how-to-use-lambdaedge-and-json-web-tokens-to-enhance-web-application-security/) project. While followed the steps listed on the blog I am getting below error:
+
+EdgeAuthFunction --> creation failed
+The runtime parameter of nodejs6.10 is no longer supported for creating or updating AWS Lambda functions. We recommend you use the new runtime (nodejs8.10) while creating or updating functions. (Service: AWSLambdaInternal; Status Code: 400; Error Code: InvalidParameterValueException; Request ID: 3f4a26b6-8d43-11e9-b44b-6717fa57dc3e)
+
+I understood, I need to change the runtime parameter for nodejs. But this project is completely using to cloudFormation templates from S3 and not able to setup by myself. Is there any other tutorial that can help me to implement this project.
+
+Thank you in Adavance..!!
+
+tags --> lamda cognito cloudFormation javaScript nodejs s3

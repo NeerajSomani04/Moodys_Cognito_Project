@@ -37,3 +37,13 @@ EdgeAuthFunction --> creation failed
 
 The runtime parameter of nodejs6.10 is no longer supported for creating or updating AWS Lambda functions. We recommend you use the new runtime (nodejs8.10) while creating or updating functions. (Service: AWSLambdaInternal; Status Code: 400; Error Code: InvalidParameterValueException; Request ID: 3f4a26b6-8d43-11e9-b44b-6717fa57dc3e)
 
+
+Approach 1 --> Cognito, CloudFront, Lambda@Edge, S3 for storage
+technology --> AWS, HTML, CSS, JavaScript
+
+https://aws.amazon.com/blogs/networking-and-content-delivery/authorizationedge-how-to-use-lambdaedge-and-json-web-tokens-to-enhance-web-application-security/
+
+Approach 2 --> Cognito, API-Gateway, Lambda, S3 for storage
+technology --> AWS, HTML, CSS, JavaScript
+
+https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/
